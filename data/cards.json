@@ -1,38 +1,38 @@
 [
   {
-    "image": "../assets/chili.png",
-    "name": "chili"
+    "image": "../assets/icons/chrome.png",
+    "name": "chrome"
   },
   {
-    "image": "../assets/grapes.png",
-    "name": "grapes"
+    "image": "../assets/icons/google.png",
+    "name": "google"
   },
   {
-    "image": "../assets/lemon.png",
-    "name": "lemon"
+    "image": "../assets/icons/flutter.png",
+    "name": "flutter"
   },
   {
-    "image": "../assets/orange.png",
-    "name": "orange"
+    "image": "../assets/icons/android.png",
+    "name": "android"
   },
   {
-    "image": "../assets/pineapple.png",
-    "name": "pineapple"
+    "image": "../assets/icons/firebase.png",
+    "name": "firebase"
   },
   {
-    "image": "../assets/strawberry.png",
-    "name": "strawberry"
+    "image": "../assets/icons/youtube.png",
+    "name": "youtube"
   },
   {
-    "image": "../assets/tomato.png",
-    "name": "tomato"
+    "image": "../assets/icons/angularjs.png",
+    "name": "angularjs"
   },
   {
-    "image": "../assets/watermelon.png",
-    "name": "watermelon"
+    "image": "../assets/icons/tensorflow.png",
+    "name": "tensorflow"
   },
   {
-    "image": "../assets/cherries.png",
-    "name": "cherries"
+    "image": "../assets/Icons/Gemini.png",
+    "name": "Gemini"
   }
 ]
