@@ -126,7 +126,7 @@ function unflipCards() {
 function resetBoard() {
   firstCard = null;
   secondCard = null;
-  lockBoard = true;
+  lockBoard = false;
 }
 
 function restart() {
