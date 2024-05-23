@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-  min-height: 98vh;
+  min-height: 100%;
   /* background-color: #12181f; */
   background-image: url('./assets/Card-game-bg.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-optical-sizing: auto;
@@ -14,10 +14,20 @@ body {
   padding: 0;
 }
 
+#logo {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  width: 320px;
+}
+
 h1 {
   text-align: center;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 70px;
   color: #4285f4;
 }
