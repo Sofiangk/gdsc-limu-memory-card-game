@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Memory Card Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <h1>Memory Cards</h1>
-    <div class="grid-container">
+    <div class="grid-container"></div>
+    <div class="score-time">
+      <p>Score: <span class="score"></span></p>
+      <p>Time: <span id="stopwatch">00:00</span></p>
     </div>
-    <p>Score: <span class="score"></span></p>
     <div class="actions">
-        <button onclick="restart()">Restart</button>
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="restart()">Restart</button>
     </div>
     <script src="index.js"></script>
   </body>
